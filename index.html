@@ -4,7 +4,7 @@
     <title>Calendar</title>
     <style>
         body {
-            background: lightgray;
+            background: lightgrey;
         }
 
         .container {
@@ -86,7 +86,7 @@
         .search-form {
             margin-top: 15px;
             float: right;
-            margin-right: 100px;
+            margin-right: 50px;
         }
 
         input[type=text] {
@@ -111,6 +111,11 @@
         .red {
             background-color: darkorange;
         }
+        .yellow {
+            color: orangered;
+            font-size: 25px;
+            font-stretch: expanded;
+        }
 
     </style>
 </head>
@@ -121,7 +126,6 @@
         <li><a href="#">Events</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Statistics</a></li>
-        <li><a href="#">Support</a></li>
     </ul>
     <form class="search-form">
         <input type="text" placeholder="Search">
@@ -241,7 +245,7 @@
             <td class="red"> 26<br><em>10-19:30</em></td>
         </tr>
         <tr>
-            <td> 27</td>
+            <td class="yellow"><strong> 27</strong><br></td>
             <td> 28</td>
             <td class="red"> 29<br><em>10-19:30</em></td>
             <td class="red"> 30<br><em>10-20</em></td>
