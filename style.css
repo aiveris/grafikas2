@@ -6,6 +6,7 @@ body {
 .container {
     max-width: 1000px;
     margin: auto;
+    font-family: sans-serif;
 }
 
 .month {
@@ -16,6 +17,7 @@ body {
     color: black;
     padding: 5px;
     border: 1px solid black;
+    font-family: sans-serif;
 }
 
 .stats {
@@ -26,15 +28,17 @@ body {
     color: black;
     padding: 5px;
     border: 2px solid black;
+    font-family: sans-serif;
 }
 
 table, th, td {
     width: 100%;
     table-layout: fixed;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     border-collapse: collapse;
     border: 1px solid black;
+    font-family: sans-serif;
 }
 
 tr, th, td {
@@ -78,7 +82,7 @@ td:hover {
     display: block;
     text-align: center;
     color: black;
-    font-size: 18px;
+    font-size: 25px;
     font-family: sans-serif;
     letter-spacing: 0.5px;
 }
@@ -121,7 +125,7 @@ button {
 
 .yellow {
     color: yellow;
-    font-size: 25px;
+    font-size: 30px;
     font-stretch: expanded;
 }
 
