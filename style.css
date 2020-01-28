@@ -85,6 +85,7 @@ td:hover {
     font-size: 25px;
     font-family: sans-serif;
     letter-spacing: 0.5px;
+    padding: 0;
 }
 
 .menu li a:hover {
