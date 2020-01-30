@@ -577,9 +577,11 @@ pre code {
 }
 
 .container {
-    max-width: 1000px;
-    margin: auto;
-    font-family: sans-serif;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
 }
 
 @media (min-width:576px) {
