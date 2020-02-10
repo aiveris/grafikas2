@@ -1,6 +1,6 @@
-
-body {
-    background: #f5f5f5;
+body{
+    background: url(attributes/beach.jpg);
+    background-size: cover;
 }
 
 .container {
@@ -11,7 +11,7 @@ body {
 
 .month {
     text-align: center;
-    background: darkseagreen;
+    background: disagreed;
     font-size: 2em;
     letter-spacing: 1px;
     color: black;
@@ -22,7 +22,7 @@ body {
 
 .stats {
     text-align: center;
-    background: darkseagreen;
+    background: disagreed;
     font-size: 25px;
     letter-spacing: 1px;
     color: black;
@@ -50,12 +50,12 @@ tr, th, td {
 }
 
 th {
-    background: cornflowerblue;
+    background: disagreed;
     color: white;
 }
 
 td {
-    background: darkgrey;
+    background: disagreed;
 }
 
 td:hover {
@@ -64,7 +64,7 @@ td:hover {
 
 .menu {
     width: 100%;
-    background: #f5f5f5;
+    background: disagreed;
     overflow: auto;
 }
 
@@ -81,7 +81,7 @@ td:hover {
 }
 
 .menu ul li a {
-    background: #f5f5f5;
+    background: disagreed;
     text-decoration: none;
     width: 150px;
     display: block;
@@ -93,7 +93,7 @@ td:hover {
 }
 
 .menu li a:hover {
-    color: greenyellow;
+    color: white;
     opacity: 0.5;
     font-size: 2em;
 }
