@@ -11,7 +11,7 @@ body{
 
 .month {
     text-align: center;
-    background: disagreed;
+    /*background: disagreed;*/
     font-size: 2em;
     letter-spacing: 1px;
     color: black;
@@ -22,7 +22,7 @@ body{
 
 .stats {
     text-align: center;
-    background: disagreed;
+    /*background: disagreed;*/
     font-size: 25px;
     letter-spacing: 1px;
     color: black;
@@ -90,6 +90,7 @@ td:hover {
     font-size: 2em;
     font-family: sans-serif;
     padding: 0;
+    transition: 0.6s ease;
 }
 
 .menu li a:hover {
@@ -124,6 +125,10 @@ button {
     font-size: 16px;
 }
 
+ul li.active a{
+    color: #fff;
+}
+
 .work {
     background-color: darkorange;
 }
@@ -139,3 +144,9 @@ button {
     font-stretch: expanded;
 }
 
+.logo img{
+    float: left;
+    width:100px;
+    height: auto;
+    margin: 15px;
+}
