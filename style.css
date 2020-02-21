@@ -11,23 +11,21 @@ body{
 
 .month {
     text-align: center;
-    /*background: disagreed;*/
     font-size: 2em;
     letter-spacing: 1px;
     color: black;
     padding: 5px;
-    border: 1px solid black;
+    border: 3px solid black;
     font-family: sans-serif;
 }
 
 .stats {
     text-align: center;
-    /*background: disagreed;*/
     font-size: 25px;
     letter-spacing: 1px;
     color: black;
     padding: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     font-family: sans-serif;
 }
 .stats_table{
@@ -40,22 +38,14 @@ table, th, td {
     table-layout: fixed;
     text-align: center;
     font-size: 26px;
+    font-weight: bold;
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 3px solid black;
     font-family: sans-serif;
 }
 
 tr, th, td {
     padding: 15px;
-}
-
-th {
-    background: disagreed;
-    color: black;
-}
-
-td {
-    background: disagreed;
 }
 
 td:hover {
@@ -64,7 +54,6 @@ td:hover {
 
 .menu {
     width: 100%;
-    background: disagreed;
     overflow: auto;
 }
 
@@ -81,7 +70,6 @@ td:hover {
 }
 
 .menu ul li a {
-    background: disagreed;
     text-decoration: none;
     width: 150px;
     display: block;
@@ -131,6 +119,8 @@ ul li.active a{
 
 .work {
     background-color: darkorange;
+
+
 }
 
 .today {
@@ -150,3 +140,80 @@ ul li.active a{
     height: auto;
     margin: 15px;
 }
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+    font-family: sans-serif;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.login-box input{
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+
+.login-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+.login-box a:hover{
+    color: #39dc79;
+}
+
+
+
+
+
+
+
+
+
+
