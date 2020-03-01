@@ -7,6 +7,7 @@ body{
     max-width: 1000px;
     margin: auto;
     font-family: sans-serif;
+    color: black;
 }
 
 .month {
@@ -49,7 +50,7 @@ tr, th, td {
 }
 
 td:hover {
-    background: greenyellow;
+    background: darkgrey;
 }
 
 .menu {
@@ -83,7 +84,7 @@ td:hover {
 
 .menu li a:hover {
     color: white;
-    opacity: 0.5;
+    /*opacity: 0.5;*/
     font-size: 2em;
 }
 
@@ -118,21 +119,22 @@ ul li.active a{
 }
 
 .work {
+    /*background-color: rgba(0,0,0,0.4);*/
     background-color: darkorange;
-
+    opacity: 0.7;
 
 }
 
-.today {
-    background-color: darkorange;
-    color: yellow;
-}
+/*.today {*/
+/*    background-color: darkorange;*/
+/*    color: yellow;*/
+/*}*/
 
-.rest {
-    color: yellow;
-    font-size: 25px;
-    font-stretch: expanded;
-}
+/*.rest {*/
+/*    color: yellow;*/
+/*    font-size: 25px;*/
+/*    font-stretch: expanded;*/
+/*}*/
 
 .logo img{
     float: left;
@@ -171,7 +173,6 @@ h1{
     margin-bottom: 20px;
 
 }
-
 
 .login-box input[type="text"], input[type="password"]{
     border: none;
