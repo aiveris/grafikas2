@@ -1,5 +1,6 @@
 body{
     background: url(attributes/beach2.jpg);
+    /*background: white;*/
     background-size: cover;
 }
 

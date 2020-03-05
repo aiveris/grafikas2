@@ -76,7 +76,7 @@ body {
 }
 .container .card .imgBx h3{
     position: relative;
-    color: #fff;
+    color: black;
     margin-top: 10px;
 }
 .container .card .content{
