@@ -10,7 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    min-height: 1000px;
+    min-height: 800px;
     /*background: #000;*/
 }
 header {
@@ -457,7 +457,7 @@ background: #fff;
         font-size: 24px;
     }
     h3{
-        font-size: 36px;
+        font-size: 24px;
     }
 }
 
