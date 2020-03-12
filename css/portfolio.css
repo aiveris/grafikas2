@@ -429,9 +429,10 @@ background: #fff;
     }
     .banner{
         background-position: center;
+        overflow: hidden;
     }
     .banner h2{
-        font-size: 60px;
+        font-size: 40px;
         padding: 0 50px;
     }
     .sec{
