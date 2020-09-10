@@ -1,5 +1,5 @@
 body{
-    background: url(../assets/beach5.jpg);
+    background: url(../assets/sky.jpg);
     /*background: white;*/
     background-size: cover;
 }
@@ -120,7 +120,8 @@ ul li.active a{
 
 .work {
     /*background-color: rgba(0,0,0,0.4);*/
-    background-color: darkolivegreen;
+    /*background-color: darkolivegreen;*/
+    background-color: lightblue;
     opacity: 0.7;
 
 }
