@@ -2,6 +2,7 @@ body{
     background: url(../assets/sea.jpg);
     /*background: white;*/
     background-size: cover;
+    min-height: 100vh;
 }
 
 .container {
