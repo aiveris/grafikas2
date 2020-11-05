@@ -210,5 +210,10 @@ h1{
 .login-box a:hover{
     color: #39dc79;
 }
+@media (max-width: 992px) {
+body{
+    background: url(../assets/beach3.jpg);
+    background-size: 130%;
 
+}
 
